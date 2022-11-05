@@ -11,6 +11,7 @@ const Task = ({ task }) => {
     <div>
       <li className="flex justify-between items-center text-white">
         <p className="text-1xl">{task.title}</p>
+        <p className="text-1xl">New branch</p>
         <div className="flex space-x-2">
           <button onClick={() => removeTask(task.id)}>
             <RiDeleteBin2Line />
